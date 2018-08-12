@@ -1,0 +1,56 @@
+/* Main navbar */
+.navbar-wagon {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: black;
+  transition: all 0.3s ease;
+  height: 90px;
+  padding: 0px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  padding-top: 20px;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+
+}
+
+body {
+  margin: 0;
+}
+
+/* Logo */
+.navbar-wagon-brand img {
+  height: 75px;
+  padding-bottom: 15px
+}
+/* Right section */
+.navbar-wagon-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-wagon-link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+
+
+a:hover {
+color: #1EB1C1;
+text-decoration: underline;
+}
+
+.btn {
+  color: white;
+  padding-bottom: 20px;
+}
